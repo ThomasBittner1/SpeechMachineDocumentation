@@ -15,6 +15,8 @@ First we need to understand how the Setup Node works. The Setup Node is called _
 
 Never adjust those attributes directly, unless you are absolutely sure of what you are doing. The way to adjust those attributes is by going to the Setup Jaw/Lips/Tongue tab and from top to bottom fill and calibrate the fields.
 
+![Alt text](images/setupNode.jpg)      
+
 
 ## Titles Attach Transform
 In the Setup Jaw/Lips/Tongue tab at the top you can find Titles Attach Transform.
@@ -30,6 +32,7 @@ You might notice that in the UI the field on the right side has some some confus
 This is just a mirror to an attribute in the Setup Node which is storing the offset matrix of the plane relative to the transform that you specified.
 
 Later, if the Subtitles appear too big or too small, simply adjust the plane.
+![Alt text](images/tittlesAttachTransform.jpg)      
 
 ## Jaw Container
 The first 3 lines are the most important
@@ -43,6 +46,9 @@ Then play with the Jaw Open Test slider below. If the jaw opens and closes corre
 
 And then set the jaw percentages of where the jaw should be on the S (Jaw % for S) and TH (Jaw % for TH) sounds.
 For the S, just make sure the tip of the teeth are meeting. In most rigs that would be 0 %. And for TH, just make sure the gap between the teeth is wide enough so the tip of the tongue has space to go inbetween.
+
+![Alt text](images/jawContainer.jpg)      
+
 
 ## Other Containers
 Before moving further, let’s make sure we know what exactly a Container is. The speech-machine has those containers:
