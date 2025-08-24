@@ -1,0 +1,36 @@
+site_name: speech-machine.com
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: sky
+  font:
+    text: Roboto
+    code: Roboto Mono
+  custom_dir: overrides
+  features:
+    - navigation.footer
+  footer: false
+  copyright: "2025 Speech-Machine"
+
+nav:
+  - Home: index.md
+  - Requirements: requirements.md
+  - Tutorial: tutorial.md
+  - Download: download.md
+  - FAQ: FAQ.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - attr_list
+
+site_description: Speech-Machine - Automatic Lip Synch for Maya
+
+extra_css:
+  - extra2.css
+extra_javascript:
+  - javascripts/scroll-behavior-toggle.js
+  - javascripts/openExternalLinks.js
