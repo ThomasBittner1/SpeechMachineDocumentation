@@ -1,10 +1,14 @@
 
-Before going through this tutorial, it’s best to watch the Speech-Machine for Animators video first, so you’ll know how animators are going to use it.
+!!! info "video"
+    Before going through this tutorial, it’s best to watch the [Speech-Machine for Animators](https://www.youtube.com/watch?v=9SmJqNh1j0A){target="_blank"}
+    video first, so you’ll know how animators are going to use it.
 
 
-Also it would be helpful to fully read the Requirements page on this website.
+It would also be helpful to fully read the [Requirements](requirements.md) page on this website.
 
-This tutorial shows the step-by-step process how to set it up. To see that in action, watch the Speech-Machine for Riggers video.
+!!! info "video"
+    This page shows the step-by-step process how to set it up. To see that in action, watch the 
+    [Speech-Machine for Riggers](https://www.youtube.com/watch?v=IoappUgHWbQ){target="_blank"} video.
 
 The Setup process of the Speech-Machine is mapping the controls in your rig to the Containers. During this process you are working with the tool similar to how animators are working with it – the character rig needs to be referenced in scene, and at the top of the UI the namespace needs to be specified by selecting any control and clicking Set from Selected at the top of the UI.
 

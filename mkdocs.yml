@@ -2,8 +2,12 @@ site_name: speech-machine.com
 theme:
   name: material
   palette:
-    scheme: default
-    primary: sky
+    - scheme: default
+      primary: green
+      accent: light green
+    - scheme: slate
+      primary: teal
+      accent: lime
   font:
     text: Roboto
     code: Roboto Mono
